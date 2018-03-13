@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cjsrn.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="논산의 모든것"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".IntroActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".FestivalActivity" />
+        <activity android:name=".SightseeingActivity" />
+        <activity android:name=".ConfucianismActivity" />
+        <activity android:name=".FoodActivity" />
+        <activity android:name=".HotelActivity" />
+        <activity android:name=".Festival1Activity" />
+        <activity android:name=".Conf1Activity" />
+        <activity android:name=".Conf1_1Activity" />
+        <activity android:name=".Conf1_2Activity" />
+        <activity android:name=".Sigh1Activity" />
+        <activity android:name=".Sigh2Activity" />
+        <activity android:name=".Sigh3Activity" />
+        <activity android:name=".Sigh3_1Activity" />
+        <activity android:name=".Ser12Activity" />
+        <activity android:name=".Food2Activity" />
+        <activity android:name=".Food3Activity" />
+        <activity android:name=".Hot2Activity" />
+        <activity android:name=".Fore1Activity"></activity>
+    </application>
+
+</manifest>

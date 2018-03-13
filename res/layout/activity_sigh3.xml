@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_festival"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cjsrn.myapplication.FestivalActivity"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        app:srcCompat="@drawable/sbar3"
+        android:id="@+id/imageView" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:paddingTop="50dp">
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/ss81"
+            android:layout_marginRight="40dp"
+            android:id="@+id/icon1"/>
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/ss82"
+            android:id="@+id/icon2"/>
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    android:paddingTop="20dp">
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        app:srcCompat="@drawable/ss83"
+        android:layout_marginRight="40dp"
+        android:id="@+id/icon3"/>
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        app:srcCompat="@drawable/ss84"
+        android:id="@+id/icon4"/>
+</LinearLayout>
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    android:paddingTop="20dp">
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        app:srcCompat="@drawable/ss85"
+        android:layout_marginRight="40dp"
+        android:id="@+id/icon5"/>
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        app:srcCompat="@drawable/ss86"
+        android:id="@+id/icon6"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:paddingTop="20dp">
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/ss87"
+            android:layout_marginRight="40dp"
+            android:id="@+id/icon7"/>
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/ss88"
+            android:id="@+id/icon8"/>
+    </LinearLayout>
+</LinearLayout>

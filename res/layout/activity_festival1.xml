@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?attr/colorPrimary"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        app:srcCompat="@drawable/bar_1"
+        android:id="@+id/imageView" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/fe1_po"/>
+        </ScrollView>
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fl_m"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:src="@android:drawable/ic_dialog_map"
+        android:layout_gravity="bottom|left"
+        app:backgroundTint="@color/orange"
+        app:borderWidth="0dp"
+        app:elevation="6dp"
+        app:fabSize="normal"
+        android:layout_marginLeft="150dp"
+        android:layout_marginBottom="10dp"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fl_h"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_gravity="bottom|left"
+        android:src="@android:drawable/ic_dialog_info"
+        app:backgroundTint="@color/orange"
+        app:borderWidth="0dp"
+        app:elevation="6dp"
+        app:fabSize="normal"
+        android:layout_marginLeft="80dp"
+        android:layout_marginBottom="10dp"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fl_c"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_gravity="bottom|left"
+        android:src="@android:drawable/sym_call_outgoing"
+        app:backgroundTint="@color/orange"
+        app:borderWidth="0dp"
+        app:elevation="6dp"
+        app:fabSize="normal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"/>
+
+</android.support.design.widget.CoordinatorLayout>

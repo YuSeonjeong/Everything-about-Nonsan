@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_festival"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cjsrn.myapplication.FoodActivity"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        app:srcCompat="@drawable/bar_6"
+        android:id="@+id/imageView" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:weightSum="1"
+        android:paddingTop="15dp"
+        android:paddingBottom="20dp">
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="15dp"
+            app:srcCompat="@drawable/foicon1"
+            android:layout_marginRight="50dp"
+            android:id="@+id/btn1"/>
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="15dp"
+            app:srcCompat="@drawable/foicon2"
+            android:layout_marginRight="50dp"
+            android:id="@+id/btn2"/>
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/foicon3_1"
+            android:id="@+id/btn3"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal"
+        android:background="@drawable/food_bar"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="50dp"
+            android:text="선택 지역 : "
+            android:textSize="16dp"
+            android:gravity="center_vertical" />
+
+        <Spinner
+            android:paddingLeft="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/spinner1"
+            android:layout_width="229dp"
+            android:layout_height="wrap_content"
+            android:entries="@array/locate" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="285dp"
+                app:srcCompat="@drawable/foo2"
+                android:id="@+id/foo1"/>
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="285dp"
+                app:srcCompat="@drawable/foo3"
+                android:id="@+id/foo3"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

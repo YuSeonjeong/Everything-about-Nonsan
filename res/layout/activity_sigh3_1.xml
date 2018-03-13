@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_festival"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cjsrn.myapplication.FestivalActivity"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        app:srcCompat="@drawable/sigh3_1_bar"
+        android:id="@+id/imageView" />
+
+
+    <ScrollView android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="228dp"
+                app:srcCompat="@drawable/sigh3_1_pic1" />
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="228dp"
+                app:srcCompat="@drawable/sigh3_1_pic2" />
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="228dp"
+                app:srcCompat="@drawable/sigh3_1_pic3" />
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="228dp"
+                app:srcCompat="@drawable/sigh3_1_pic4" />
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="228dp"
+                app:srcCompat="@drawable/sigh3_1_pic5" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

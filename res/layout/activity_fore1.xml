@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_festival"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cjsrn.myapplication.FoodActivity"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        app:srcCompat="@drawable/fore_bar"
+        android:id="@+id/imageView" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:weightSum="1"
+        android:paddingTop="15dp"
+        android:paddingBottom="20dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingRight="30dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="평균 평점"
+                android:textSize="16dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4.3"
+                android:textSize="16dp"
+                android:textColor="#f4ba1f"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="25dp"
+            android:src="@drawable/line"
+            android:layout_marginRight="30dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingRight="30dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="리뷰"
+                android:textSize="16dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4"
+                android:textSize="16dp"
+                android:textColor="#f4ba1f"/>
+
+        </LinearLayout>
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="25dp"
+            android:src="@drawable/line"
+            android:layout_marginRight="30dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="추천 수"
+                android:textSize="16dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:textSize="16dp"
+                android:textColor="#f4ba1f"/>
+
+        </LinearLayout>
+</LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:layout_gravity="center">
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:srcCompat="@drawable/fore_pe"
+                android:id="@+id/foo1"
+                android:layout_marginRight="10dp"/>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="144dp"
+                android:src="@drawable/fore_bu"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="나그네1"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="30dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2016-12-13"
+                    android:textSize="14dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="110dp"/>
+
+                <ImageView
+                    android:layout_width="79dp"
+                    android:layout_height="16dp"
+                    android:src="@drawable/fore_star1"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="30dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:src="@drawable/fr1"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginLeft="30dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="정말 맛있네요"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="113dp"
+                    android:layout_marginLeft="30dp"/>
+            </FrameLayout>
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:paddingTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center">
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    app:srcCompat="@drawable/fore_pe"
+                    android:layout_marginRight="10dp"/>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="234dp"
+                        android:src="@drawable/fore_bu2"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="안녕123"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="30dp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="2016-12-13"
+                        android:textSize="14dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="110dp"/>
+
+                    <ImageView
+                        android:layout_width="79dp"
+                        android:layout_height="16dp"
+                        android:src="@drawable/fore_star2"
+                        android:layout_marginTop="35dp"
+                        android:layout_marginLeft="30dp"/>
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="116dp"
+                        android:src="@drawable/fr1_1"
+                        android:layout_marginTop="60dp"
+                        android:layout_marginLeft="20dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="뚝불이 끝내줘요~!!"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="190dp"
+                        android:layout_marginLeft="30dp"/>
+
+
+                </FrameLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

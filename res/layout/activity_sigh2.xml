@@ -1,0 +1,166 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_festival"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.cjsrn.myapplication.FestivalActivity"
+android:orientation="vertical"
+android:weightSum="1">
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    app:srcCompat="@drawable/sbar2"
+    android:id="@+id/imageView" />
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+            <FrameLayout
+                android:paddingTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="10dp">
+                <ViewFlipper
+                    android:layout_height="wrap_content"
+                    android:id="@+id/viewFlipper1"
+                    android:layout_width="wrap_content">
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="248dp"
+                        android:orientation="vertical"
+                        android:background="@drawable/sigh2_1_pic1"></LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/linearLayout3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="248dp"
+                        android:orientation="vertical"
+                        android:background="@drawable/sigh2_1_pic2"></LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/linearLayout4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="248dp"
+                        android:orientation="vertical"
+                        android:background="@drawable/sigh2_1_pic3"></LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/linearLayout5"
+                        android:layout_width="fill_parent"
+                        android:layout_height="248dp"
+                        android:orientation="vertical"
+                        android:background="@drawable/sigh2_1_pic4"></LinearLayout>
+
+                </ViewFlipper>
+                <Button
+                    android:layout_width="58dp"
+                    android:layout_height="wrap_content"
+                    android:text="◀"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="120dp"
+                    android:background="#80FFFFFF"
+                    android:id="@+id/button1"/>
+
+                <Button
+                    android:layout_width="58dp"
+                    android:layout_height="wrap_content"
+                    android:text="▶"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="120dp"
+                    android:background="#80FFFFFF"
+                    android:id="@+id/button2"/>
+
+                <ViewFlipper
+                    android:paddingTop="258dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/viewFlipper2"
+                    android:layout_width="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="248dp"
+                        android:orientation="vertical"
+                        android:background="@drawable/sigh2_2_pic1"></LinearLayout>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="248dp"
+                        android:orientation="vertical"
+                        android:background="@drawable/sigh2_2_pic2"></LinearLayout>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="248dp"
+                        android:orientation="vertical"
+                        android:background="@drawable/sigh2_2_pic3"></LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="248dp"
+                        android:orientation="vertical"
+                        android:background="@drawable/sigh2_2_pic4"></LinearLayout>
+                </ViewFlipper>
+                <Button
+                    android:layout_width="58dp"
+                    android:layout_height="wrap_content"
+                    android:text="◀"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="378dp"
+                    android:background="#80FFFFFF"
+                    android:id="@+id/button3"/>
+
+                <Button
+                    android:layout_width="58dp"
+                    android:layout_height="wrap_content"
+                    android:text="▶"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="378dp"
+                    android:background="#80FFFFFF"
+                    android:id="@+id/button4"/>
+
+
+                <ViewFlipper
+                    android:paddingTop="516dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/viewFlipper3"
+                    android:layout_width="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="248dp"
+                        android:orientation="vertical"
+                        android:background="@drawable/sigh2_3_pic1"></LinearLayout>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="248dp"
+                        android:orientation="vertical"
+                        android:background="@drawable/sigh2_3_pic2"></LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="248dp"
+                        android:orientation="vertical"
+                        android:background="@drawable/sigh2_3_pic4"></LinearLayout>
+                </ViewFlipper>
+                <Button
+                    android:layout_width="58dp"
+                    android:layout_height="wrap_content"
+                    android:text="◀"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="636dp"
+                    android:background="#80FFFFFF"
+                    android:id="@+id/button5"/>
+
+                <Button
+                    android:layout_width="58dp"
+                    android:layout_height="wrap_content"
+                    android:text="▶"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="636dp"
+                    android:background="#80FFFFFF"
+                    android:id="@+id/button6"/>
+            </FrameLayout>
+
+
+    </ScrollView>
+</LinearLayout>

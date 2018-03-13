@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?attr/colorPrimary"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        app:srcCompat="@drawable/con1_bar"
+        android:id="@+id/imageView"
+        android:layout_marginBottom="10dp"/>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <ViewFlipper
+        android:layout_height="wrap_content"
+        android:id="@+id/viewFlipper1"
+        android:layout_width="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="248dp"
+            android:orientation="vertical"
+            android:background="@drawable/con1main"></LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="fill_parent"
+            android:layout_height="248dp"
+            android:orientation="vertical"
+            android:background="@drawable/con1main4"></LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="fill_parent"
+            android:layout_height="248dp"
+            android:orientation="vertical"
+            android:background="@drawable/con1main3"></LinearLayout>
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="fill_parent"
+            android:layout_height="248dp"
+            android:orientation="vertical"
+            android:background="@drawable/con1main2"></LinearLayout>
+
+    </ViewFlipper>
+        <Button
+            android:layout_width="58dp"
+            android:layout_height="wrap_content"
+            android:text="◀"
+            android:layout_gravity="left|center_vertical"
+            android:background="#80FFFFFF"
+            android:id="@+id/button1"/>
+
+        <Button
+            android:layout_width="58dp"
+            android:layout_height="wrap_content"
+            android:text="▶"
+            android:layout_gravity="right|center_vertical"
+            android:background="#80FFFFFF"
+            android:id="@+id/button2"/>
+    </FrameLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="179dp">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                app:srcCompat="@drawable/cicon1"
+                android:id="@+id/cc1"
+                android:layout_marginRight="36dp"
+                android:layout_marginEnd="36dp"
+                android:layout_alignTop="@+id/cc2"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                app:srcCompat="@drawable/cicon2"
+                android:id="@+id/cc2"
+                android:layout_marginLeft="42dp"
+                android:layout_marginStart="42dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/call"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@android:drawable/ic_menu_call"
+        app:backgroundTint="@color/orange"
+        app:borderWidth="0dp"
+        app:elevation="6dp"
+        app:fabSize="normal"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="230dp"
+        android:layout_marginRight="15dp"/>
+
+</android.support.design.widget.CoordinatorLayout>
